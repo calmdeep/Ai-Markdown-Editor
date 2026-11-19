@@ -3,17 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "AI-Driven Smart Markdown Editor & Previewer",
+  "description": "Smart Markdown Editor with Writing Assistance",
   "scripts": {
-    "build": "cd client && npm install && npm run build",
-    "client": "cd client && npm run dev",
-    "server": "cd server && npm run dev",
-    "start": "node server/server.js"
-  },
-  "dependencies": {
-    "@google/genai": "^2.28.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build:client": "cd client && npm run build"
   }
 }
